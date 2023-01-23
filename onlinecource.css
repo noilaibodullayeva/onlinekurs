@@ -1,0 +1,199 @@
+/*bg image*/
+body{
+  background-image: url(./1613650730_118-p-fon-dlya-shkolnoi-prezentatsii-kartinki-127.png);
+  background-repeat: no-repeat;
+}
+
+/*logo image*/
+.logoimaga{
+  height: 70px;
+  width: 70px;
+  float: left;
+}
+
+/*Navbar*/
+.nav nav a{
+  display: flex;
+  justify-content: space-between;
+  color:blueviolet;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+  float: right;
+  text-decoration: none;
+  padding: 15px;
+  text-shadow: 3px 3px 8px grey;
+}
+nav a:hover{
+  color: black;
+}
+
+ /*HOMe*/
+.main{
+  padding-top: 170px;
+  padding-left: 10px;
+  float: left;
+}
+.name{
+  font-size: 50px;
+  color: blueviolet;
+  font-family: sans-serif;
+  font-weight: 800;
+  display: inline;
+  text-shadow: 3px 3px 8px grey;
+}
+.name:hover{
+  color: black;
+}
+.score{
+  font-size: 39px;
+  display: inline;
+  text-shadow: 3px 3px 8px grey;
+}
+.score:hover{
+  color: blueviolet;
+}
+.img{
+  float: right;
+  height: 600px;
+  width: 600px;
+  padding-top: 120px;
+}
+
+/*about me*/
+.aboutme{
+  background-color:antiquewhite;
+  
+}
+.myImage{
+  float: left;
+  padding-top: 500px;
+  padding-left: 100px;
+}
+.myImagea{
+  height: 500px;
+  width:fit-content;
+  border: 2px solid blueviolet;
+  box-shadow: 8px 8px 10px 16px lightblue;
+  border-radius: 500px;
+  
+}
+.myInfo{
+  justify-content: space-between;
+  float: right;
+  padding-top: 390px;
+  padding-right: 130px;
+
+}
+.myInfo p{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: blueviolet;
+}
+.myInfo p:hover{
+  color: black;
+  font-size: 30px;
+}
+#mya{
+  font-size: 50px;
+  color: green;
+  text-shadow: 3px 3px 8px grey;
+}
+#mya:hover{
+  color: blueviolet;
+  font-size: 40px;
+}
+
+/*GENERAL HELP*/
+.generalhelp{
+  padding-top: 1900px;
+  /* background-color:azure; */
+ }
+#ghelp{
+  font-size: 30px;
+  color: blueviolet;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 8px grey;
+}
+#ghelp:hover{
+  color: black;
+}
+.boxone{
+  display:inline-flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+#mainwords{
+  font-size: 25px;
+  color: black;
+  font-family: sans-serif;
+  text-shadow: 3px 3px 8px grey;
+}
+#mainwords:hover{
+  color: blueviolet;
+}
+#helps{
+  color: blueviolet;
+  font-size: 15px;
+}
+#helps:hover{
+  color: black;
+}
+
+/* CONtACT FORM*/
+.contacttext{
+  font-size: 25px;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  padding-top: 50px;
+}
+.contacttext{
+  text-shadow: 3px 3px 8px grey;
+}
+.contacttext:hover{
+  color: blueviolet;
+}
+.imagecontack{
+  float: left;
+  padding-left: 90px;
+  padding-top: 50px;
+  /* padding-right: 50px; */
+}
+.form{
+  float: right;
+  padding-right: 600px;
+  width: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
+  
+}
+
+.form input{
+  width: 350px;
+  height: 30px;
+  box-shadow: 2px 2px 3px 4px grey;
+}
+.formmain{
+  padding-left: 100px;
+  
+}
+button{
+  width: 100px;
+  height: 30px;
+  color: black;
+  background-color: blueviolet;
+}
+button:hover{
+  color: rgb(10, 1, 18);
+  background-color: darkorchid;
+  padding-left: 35px;
+  width:150px ;
+}
+hr{
+  width: 100%;
+}
